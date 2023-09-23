@@ -1,0 +1,301 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    background-color: #2D2D2D;
+    /* height: 2000px; */
+}
+
+/* 
+    Nav Bar
+*/
+
+header {
+/*     position: relative; */
+}
+
+nav {
+    padding: 0;
+    background-color: #2D2D2D;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+    font-weight: 275;
+    font-size: 24px;
+    z-index: 1;
+}
+
+nav a {
+    transition: 300ms;
+}
+
+nav a:hover {
+    color: #00F0FF;
+    background: linear-gradient(0deg, rgba(0,76,80,1) 0%, rgba(45,45,45,1) 67%);
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3.5vw;
+    padding: 1.5vw;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+.logo span {
+    margin-left: 1.5vw;
+    font-size: 24px;
+}
+
+.buttons {
+    /* width: 32.5%; */
+    display: flex;
+    justify-content: space-around;
+    margin-right: 3.5vw;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons p {
+    margin: 0;
+}
+
+.home {
+    padding: 2.5vw;
+    /* background: linear-gradient(180deg, rgba(21,21,21,0) 0%, rgba(0,240,255,1) 100%); */
+}
+
+.marine-life {
+    padding: 2.5vw;
+}
+
+.buy-ticket {
+    color: black;
+    font-weight: 300;
+    background-color: #00F0FF;
+    padding: 2.5vw;
+
+    transition: 300ms;
+}
+
+.buy-ticket:hover {
+    color: white;
+    font-weight: 300;
+    background: linear-gradient(0deg, rgba(1,175,186,1) 0%, rgba(0,154,164,1) 70%);
+    padding: 2.5vw;
+}
+
+/*
+    Body
+*/
+
+.header-img {
+    margin-bottom: 2.5vh;
+    overflow: hidden;
+}
+
+.header-img img {
+    margin-top: 9.5vh;
+    width: 100%;
+    height: 92.5vh;
+    object-fit: cover;
+    filter: brightness(60%);
+
+    transition: 300ms;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    text-align: center;
+    top: 22.5vw;
+    position: absolute;
+    color: white;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.header-text h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.header-text button {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 2vh;
+    color: black;
+    background-color: #00F0FF;
+    border: 0;
+    padding: 1vh 1vw;
+
+    transition: 300ms;
+}
+
+.header-text button:hover {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 2vh;
+    color: white;
+    background-color: #009AA4;
+    border: 0;
+    padding: 1vh 1vw;
+
+    filter:drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.25));
+    transform: scale(1.05);
+}
+
+/*
+    Footer
+*/
+
+footer {
+    margin: 0;
+    /* margin-top: 5vh; */
+    background-color: #F1F1F1;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+footer a:hover {
+    color:#009AA4;
+    text-decoration: none;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+}
+
+.boxleft {
+    margin: 2vw;
+}
+
+.footer-logo {
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+.footer-logo h3 {
+    font-size: 24px;
+    font-weight: 275;
+}
+
+.footer-logo img {
+    height: 4.5vw;
+}
+
+.socials h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #009AA4;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.socials p {
+    font-size: 16px;
+}
+
+.soc-ig {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.soc-ig p {
+    margin: 0;
+    margin-left: 1vw;
+}
+
+.soc-ig img {
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.soc-fb {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.soc-fb p {
+    margin: 0;
+    margin-left: 1vw;
+}
+
+.soc-fb img {
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.footer-logo h3 {
+    margin: 0;
+    font-weight: 450;
+}
+
+.boxmid {
+    margin: 2vw;
+}
+
+.boxmid h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #009AA4;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.boxmid p {
+    font-size: 16px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.address p {
+    margin: 0;
+}
+
+.boxright {
+    margin: 2vw;
+}
+
+.boxright h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #009AA4;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.boxright p {
+    font-size: 16px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
